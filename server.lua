@@ -3,7 +3,8 @@ lib.addCommand({ 'fix', 'repair', 'fixcar' }, {
 	restricted = 'group.admin'
 }, function(source, args, raw)
 	TriggerClientEvent('d-fix:fix', source)
-	exports.DDiscordLogs:Sendlog('fix', 'Usou o comando /fix', true)
+	local playername = GetPlayerName(source)
+	exports.DDiscordLogs:SendLog('fix',  3447003, "DFixClean",'\n Steam: ' ..playername.. '\n Date: ' ..os.date("%d/%m/%Y %X"), true)
 end)
 
 lib.addCommand({ 'clean' }, {
