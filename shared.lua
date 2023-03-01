@@ -6,3 +6,7 @@ function Notification(msg, type)
 		type = type,
 	})
 end
+
+Config = {}
+
+Config.discordlog = false

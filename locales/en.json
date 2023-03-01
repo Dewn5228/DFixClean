@@ -1,5 +1,7 @@
 {
   "vehicle_repaired": "Vehicle repaired!",
   "not_in_vehicle": "You're not in a vehicle!",
-  "vehicle_cleaned": "Vehicle cleaned!"
+  "vehicle_cleaned": "Vehicle cleaned!",
+  "fix_help" : "Repair the vehicle you're sitting in",
+  "clean_help" : "Clen the vehicle you're sitting in"
 }
