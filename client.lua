@@ -8,6 +8,7 @@ AddEventHandler("d-fix:fix", function()
 		SetVehicleFixed(vehicle)
 		SetVehicleDirtLevel(vehicle, 0)
 		Notification(locale("vehicle_repaired"), "success")
+		TriggerEvent('DFixClean:log')
 	else
 		Notification(locale("not_in_vehicle"), "error")
 	end

@@ -3,5 +3,6 @@
   "not_in_vehicle": "Não estás em um veículo!",
   "vehicle_cleaned": "Veículo limpo!",
   "fix_help" : "Repara o veículo que estás sentado",
-  "clean_help" : "Limpa o veículo que estás sentado"
+  "clean_help" : "Limpa o veículo que estás sentado",
+  "date": "Data e Hora: "
 }
